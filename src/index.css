@@ -228,11 +228,20 @@ header{
   letter-spacing: 0.1px; 
 }
 
-.page-two-course-text{
+.page-two-card{
+  display: flex;
+  margin-top: 10vw;
+}
+
+.page-two-card-text{
   display: flex;
   position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  margin-left: 15.5vw;
+  margin-top: -0.8vw;
   background-color: #FFB800;
-  margin-top: -11.3vw;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-family: inherit;
@@ -243,13 +252,24 @@ header{
 
 }
 
-.page-two-card{
+.card{
   display: flex;
   background-color: #202020;
-  border: 0.5px solid #FFB800;
+  border: 2px solid #FFB800;
+  box-shadow: 
+  0 0 50px rgba(255, 184, 0, 0.3),
+  0 0 70px rgba(255, 184, 0, 0.2);;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  margin-top: 20vw;
   height: 40vw;
-  width: 30vw;
+  width: 40vw;
+}
+
+.card-title{
+  color: #fff;
+  padding: 0.5rem 1rem;
+   font-family: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  gap: 0.5rem;
 }

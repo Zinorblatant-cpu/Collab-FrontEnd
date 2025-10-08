@@ -39,13 +39,16 @@ function App() {
               Não perca a oportunidade de entrar na primeira turma de GRAÇA.
           </p>
         </div>
-        <p className="page-two-course-text">
-          MAIS POPULAR
-        </p>
-        <div className='page-two-card'>
-          <h1>Primeiro Curso <br />$0 </h1>
-          <p>Acesso imediato ao<br />Mais de 40 horas de curso<br />Atualizações gratuitas para sempre<br />Certificado de conclusão<br />Suporte da comunidade<br />Garantia de 30 dias</p>
+        <div className='page-two-card'> 
+          <p className="page-two-card-text">
+            MAIS POPULAR
+          </p>
+          <div className='card'>
+            <h1 className='card-title'>Primeiro Curso <br />$0 </h1>
+            <p>Acesso imediato ao<br />Mais de 40 horas de curso<br />Atualizações gratuitas para sempre<br />Certificado de conclusão<br />Suporte da comunidade<br />Garantia de 30 dias</p>
+          </div>
         </div>
+        
         
       </section>
     </main>
