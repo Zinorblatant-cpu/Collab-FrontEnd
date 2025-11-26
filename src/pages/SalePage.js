@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 
 function App() {
@@ -349,9 +350,9 @@ function App() {
 
             {/* Botão */}
             <div className="flex items-center justify-center mt-6">
-              <a href='http://192.168.1.199:3000/login' className="w-full max-w-xs bg-yellow-500 px-6 py-3 rounded-lg text-black font-bold whitespace-nowrap shadow-[0_15px_25px_-5px_rgba(234,179,8,0.4)]">
-                Inscrever-se Agora
-              </a>
+                <Link to="/login" className="w-full max-w-xs bg-yellow-500 px-6 py-3 rounded-lg text-black font-bold whitespace-nowrap shadow-[0_15px_25px_-5px_rgba(234,179,8,0.4)]">
+                    Inscrever-se Agora
+                </Link>
             </div>
 
             {/* Texto de garantia abaixo do botão */}
